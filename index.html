@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Petszy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="home">
+
+    <!-- NAVBAR -->
+    <header class="home-header">
+
+        <!-- LOGO -->
+        <a href="#" class="logo">Petszy</a>
+
+        <!-- MENU -->
+        <nav class="nav">
+
+            <a href="index.html">Home</a>
+            <a href="Queradotar.html">Quer adotar?</a>
+            <a href="Querajudar.html">Quer ajudar?</a>
+
+        </nav>
+
+        <!-- MENU HAMBURGUER -->
+        <div class="menu-hamburguer" onclick="abrirMenu()">
+
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="linha"></div>
+
+        </div>
+
+    </header>
+
+    <!-- HOME -->
+    <section class="home">
+
+        <div class="home-content">
+
+            <h1>Bem-vindo ao Petszy</h1>
+
+            <p>
+                No Petszy, acreditamos que todo animal merece mais do que sobreviver — merece viver com amor, cuidado e dignidade. Todos os dias, milhares de cães e gatos esperam por uma chance de serem acolhidos, de encontrar alguém que enxergue além do abandono e veja o carinho que eles têm para oferecer.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- SCRIPT MENU -->
+    <script>
+
+        function abrirMenu(){
+
+            const nav = document.querySelector('.nav');
+
+            nav.classList.toggle('ativo');
+
+        }
+
+    </script>
+
+</body>
+</html>

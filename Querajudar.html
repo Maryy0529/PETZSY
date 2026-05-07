@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quer Ajudar | Petszy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="ajudar">
+
+    <header class="ajudar-header">
+
+        <a href="#" class="logo">Petszy</a>
+
+        <nav class="nav">
+
+            <a href="index.html">Home</a>
+            <a href="Queradotar.html">Quer adotar?</a>
+            <a href="Querajudar.html">Quer ajudar?</a>
+            <a href="login.html">Login</a>
+
+        </nav>
+
+        <div class="menu-hamburguer" onclick="abrirMenu()">
+
+            <div class="linha"></div>
+            <div class="linha"></div>
+            <div class="linha"></div>
+
+        </div>
+
+    </header>
+
+    <section class="ajudar">
+
+        <h2>Ajude animais a terem um lar 💚</h2>
+
+    </section>
+
+    <script>
+
+        function abrirMenu(){
+
+            const nav = document.querySelector('.nav');
+
+            nav.classList.toggle('ativo');
+
+        }
+
+    </script>
+
+</body>
+</html>
